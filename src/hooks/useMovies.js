@@ -48,7 +48,7 @@ export function useMovies(query, callback){
         return () => {
             controller.abort();
         }
-    }, [query]);
+    }, [query, callback]);
 
     return {movies, isLoading, err};
 }

@@ -1,7 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import StarRating from "./components/StarRating";
-import Tester from "./components/StarRating";
 import './index.css';
 import App from './App';
 
